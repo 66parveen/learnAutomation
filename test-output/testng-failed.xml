@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Tests.testCreateAccount">
+        <methods>
+          <include name="testDomesticTeamSelected"/>
+          <include name="testManualRegiterLinkWorking"/>
+          <include name="testCreateAccountWithoutMobileNumber"/>
+          <include name="testTermsCondAccpeted"/>
+          <include name="testCreateAccountWith3rdInvaidPasswordCriteria"/>
+          <include name="testCreateAccountWithFirstNameOnly"/>
+          <include name="testCreateAccountWithoutEmail"/>
+          <include name="testCreateAccountWithFirstAndLastNameOnly"/>
+          <include name="testCreateAccountWithoutPassword"/>
+          <include name="testCreateAccountWithoutDetails"/>
+          <include name="testCreateAccountWithValidPin"/>
+          <include name="testCreateAccountWithValidMobileNumber"/>
+          <include name="setUp"/>
+          <include name="testCreateAccountWithInvalidPin"/>
+          <include name="testCreateAccountWithoutDOB"/>
+          <include name="testCreateAccountWithInvaidPasswordCriteria"/>
+          <include name="testCreateAccountWithInvalidEmail"/>
+          <include name="testInformationIconWorking"/>
+          <include name="testCreateAccountWith2ndInvaidPasswordCriteria"/>
+        </methods>
+      </class> <!-- Tests.testCreateAccount -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

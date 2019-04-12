@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Tests.testNavigation">
+        <methods>
+          <include name="setUp"/>
+          <include name="testStatPillarWorking"/>
+        </methods>
+      </class> <!-- Tests.testNavigation -->
+      <class name="Tests.testCreateAccount">
+        <methods>
+          <include name="setUp"/>
+          <include name="testCreateAccountButtonWorking"/>
+        </methods>
+      </class> <!-- Tests.testCreateAccount -->
+      <class name="Tests.testForgotPassword">
+        <methods>
+          <include name="setUp"/>
+          <include name="testForgotPasswordLinkWorking"/>
+        </methods>
+      </class> <!-- Tests.testForgotPassword -->
+      <class name="Tests.testLogin">
+        <methods>
+          <include name="testloginWithoutEmailAndPassword"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Tests.testLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
